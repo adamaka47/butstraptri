@@ -1,0 +1,739 @@
+// Colors
+$bg_blue: #5d90cf
+$btn: #f3d569
+$btn_text: #8e6f8d
+
+
+body
+	font-size: 18px
+	font-family: 'MullerRegular', sans-serif
+	// overflow-x: hidden
+
+
+
+// HEADER
+
+.rocket
+	width: 44em
+	margin-left: -22em
+	margin-bottom: -52em
+
+
+.header
+	height: 100vh
+	min-height: 640px
+	background: $bg_blue
+	color: #fff
+	&_top
+		padding-top: 3rem
+	&_ul
+		list-style: none
+		padding-left: 0
+		text-align: center
+		li
+			display: inline-block
+			margin: 0rem 2rem
+			line-height: 2em
+			font-size: 1em
+			a
+				color: #fff
+				text-decoration: none
+				transition: .3s
+				&:hover
+					color: #fea100
+	&_start
+		text-align: center
+		a
+			border: 2px solid #fff
+			border-radius: 50px
+			display: block
+			margin: 0 auto
+			width: 13em
+			color: #fff
+			height: 2.8em
+			transition: .4s
+			text-decoration: none
+			line-height: 2.7em
+			&:hover
+				color: $bg_blue
+				background-color: #fff
+	&_main
+		margin-top: 4em
+		h1
+			font-size: 1.5em
+			text-transform: uppercase
+			font-family: 'MullerHeavy', sans-serif
+	&_text
+		font-size: 1em
+	&_arrow
+		position: relative
+		margin-top: 3em
+		img
+			position: absolute
+			top: 0
+			left: 17em
+	&_btn
+		a
+			text-decoration: none
+			color: $btn_text
+			display: block
+			width: 18.7em
+			background-color: #f3d469
+			border-radius: 50px
+			text-align: center
+			margin-top: 2em
+			height: 3.5em
+			line-height: 3.5em
+			transition: .4s
+			&:hover
+				background-color: $btn_text
+				color: #f3d569
+		picture
+			margin-right: 8px
+	&_italic
+		font-style: italic
+	
+section
+	padding: 4em 0
+
+.who
+	background: url('../img/circle.svg') no-repeat left -10em top -15em
+	color: $bg_blue
+
+	span
+		position: absolute
+		top: 2em
+		left: 0
+		text-transform: uppercase
+		font-family: 'MullerHeavy', sans-serif
+		font-size: 5em
+		opacity: 0.3
+		z-index: 0
+	&_header
+		h2
+			font-size: 1.9em
+			font-family: 'MullerHeavy', sans-serif
+			text-transform: uppercase
+			p
+	&_img
+		text-align: center
+		position: relative
+		img, source
+			width: 8em
+			position: relative
+			display: block
+			margin-left: auto
+			margin-right: auto
+		&_third
+			img, source
+				width: 17em
+				position: relative
+				margin-top: 4em
+				display: block
+				margin-left: auto
+				margin-right: auto
+	&_text
+		padding-top: 10em
+		h4
+			font-family: 'MullerHeavy', sans-serif
+			font-size: 1.2em
+		p
+			color: #333
+			margin-top: 25px
+			font-size: 1em
+
+
+.money
+	background-color: #fea100
+	&_img
+		position: relative
+		img
+			width: 85%
+			margin-left: auto
+			margin-right: auto
+			display: block
+			padding-top: 20px
+	&_text
+		h3
+			font-family: 'MullerHeavy', sans-serif
+			font-size: 1.9em
+			color: $bg_blue
+			text-transform: uppercase
+		p
+			color: #fff
+
+.example
+	background: $bg_blue
+	padding-top: 10em
+	padding-bottom: 10em
+	color: #fff
+	img
+		padding-top: 1.5rem
+	&_big
+		font-size: 1.2em
+		padding-left: 1em
+		border-left: 2px solid #fff
+		margin-top: 50px
+
+.true
+	background-color: #ededed
+	&_item
+		margin: 4em 0
+	&_header
+		color: $bg_blue
+		margin-bottom: 2em
+		h2
+			font-size: 2em
+			text-transform: uppercase
+			font-family: 'MullerHeavy', sans-serif
+	&_text
+		margin-top: 6em
+		position: relative
+		z-index: 9
+		span
+			position: absolute
+			font-size: 25em
+			font-family: 'MullerHeavy', sans-serif
+			left: 0
+			top: -.5em
+			left: 30%
+			z-index: -2
+			opacity: .3
+			color: $bg_blue
+
+
+.false
+	&_italic
+		font-style: italic
+		font-size: .8em
+		text-shadow: 0 1px 1px #fea100
+	&_row
+		margin-left: 0
+	&_screenshot
+		img
+			border-radius: 10px
+			box-shadow: 0px 19px 80px rgba(40, 37, 55, 0.4)
+	&_header
+		position: relative
+		img.man
+			position: absolute
+			left: 0
+			top: 0
+		span
+			position: relative
+			text-transform: uppercase
+			color: $bg_blue
+			font-family: 'MullerHeavy', sans-serif
+			opacity: .3
+			z-index: 0
+			font-size: 8em
+		p
+			color: $bg_blue
+
+
+.team
+	color: #fff
+	background: $bg_blue url('../img/team.png') no-repeat right 5% top 10%
+	background-size: 45%
+	padding: 5em 0
+	&_vk
+		margin-top: 4em
+	&_text
+		h2
+			font-size: 2em
+			text-transform: uppercase
+			margin-bottom: .5em
+			font-family: 'MullerHeavy', sans-serif
+	a
+		display: inline-block
+
+.about
+	&_text
+		color: $bg_blue
+		margin-top: 1em
+		h3
+			margin-top: 0
+			text-transform: uppercase
+			font-family: 'MullerHeavy', sans-serif
+	&_photo
+		border-radius: 50%
+		border: 1em solid #aaa
+		img
+			border-radius: 50%
+			max-width: 100%
+			border: .5em solid #fea100
+
+.video
+	background-color: #ddd
+	&_img
+		width: 100%
+		margin-left: auto
+		display: block
+	&_example
+		margin-top: 5em
+	&_text
+		padding-top: 5em
+		h4
+			text-transform: uppercase
+			font-family: 'MullerHeavy', sans-serif
+			color: $bg_blue
+	&_header
+		color: $bg_blue
+		text-align: center
+		h2
+			text-transform: uppercase
+			font-size: 2em
+			font-family: 'MullerHeavy', sans-serif
+
+.table
+	text-align: right
+	&_arrow
+		-webkit-transform: rotate(180deg)
+		-ms-transform: rotate(180deg)
+		-o-transform: rotate(180deg)
+		transform: rotate(180deg)
+	&_img
+		max-width: 100%
+		margin-right: auto
+		display: block
+		margin-top: 3em
+	h4
+		text-align: left
+		text-transform: uppercase
+		margin-top: 30px
+		font-family: 'MullerHeavy', sans-serif
+		color: $bg_blue
+	p
+		text-align: left
+
+
+button, input
+	&:focus
+		outline: none
+
+.program
+	// background-color: #333
+	&_top
+		text-align: center
+		margin-bottom: 3em
+		h4
+			font-size: 2em
+			text-transform: uppercase
+			color: #333
+			font-family: 'MullerHeavy', sans-serif
+	&_btn
+		display: block
+		margin-left: auto
+		font-family: 'MullerHeavy', sans-serif
+		margin-right: auto
+		background: transparent
+		text-transform: uppercase
+		letter-spacing: 1px
+		border: none
+		background-color: $bg_blue
+		color: #fff
+		margin-top: 1em
+		border-radius: 3em
+		padding: 1em 2.2em
+		&:focus
+			outline: none
+.panel-group
+	h4
+		font-size: .9em
+		font-family: 'MullerHeavy', sans-serif
+	p
+		font-size: .9em
+		padding-left: .5em
+	a
+		text-decoration: none
+		-webkit-transition: .4s all
+		-o-transition: .4s all
+		transition: .4s all
+		&:hover
+			color: #fea100
+
+
+.and
+	text-align: center
+	background-color: $bg_blue
+	color: #fff
+	&_top
+		p
+			width: 40em
+			margin: 3em auto
+			margin-bottom: 5em
+	&_item
+		p
+			margin: 1.5em 0
+			margin-left: -0.5em
+	img
+		max-height: 105px
+
+.slick-dots
+	bottom: -45px
+
+.slick-dots li button:before
+	font-size: 2rem
+	opacity: .8
+	color: #fea100
+
+.slick-prev:before, .slick-next:before
+
+	font-size: 2.5rem
+	opacity: 1
+	color: #111
+
+
+
+
+.feedback
+	background-color: #fee
+	&_top
+		text-align: center
+		h2
+			text-transform: uppercase
+			font-size: 2em
+			color: #333
+			font-family: 'MullerHeavy', sans-serif
+		p
+			margin-bottom: 2em
+	&_slider
+		margin-left: auto
+		margin-right: auto
+		img
+			margin-left: auto
+			margin-right: auto
+
+.price
+	background-color: #f9eede
+
+	h4
+		font-family: 'MullerHeavy', sans-serif
+		text-align: center
+	&_top
+		text-align: center
+		h2
+			font-size: 2em
+			font-family: 'MullerHeavy', sans-serif
+			text-transform: uppercase
+	&_item
+		background-color: #fff
+		text-align: left
+		position: relative
+		display: flex
+		align-items: center
+		justify-content: space-between
+		margin: .5em 0
+		padding: .7em
+		span
+			margin-top: 4px
+			font-size: 1.2em
+			font-family: 'MullerHeavy', sans-serif
+		button
+			border: none
+			background: transparent
+			background-color: #15d683
+			color: #fff
+			padding: 1em 2em
+			border-radius: 30px
+			-webkit-transition: .3s all
+			-o-transition: .3s all
+			transition: .3s all
+			&:hover
+				box-shadow: 0px 5px 33px #15d683
+		p
+			display: inline-block
+			vertical-align: top
+			margin: 0
+
+		.access
+			position: absolute
+			top: 50%
+			-webkit-transform: translateY(-50%)
+			-ms-transform: translateY(-50%)
+			-o-transform: translateY(-50%)
+			transform: translateY(-50%)
+			right: 24px
+		.keepItTaco
+			position: absolute
+			top: 50%
+			-webkit-transform: translateY(-50%)
+			-ms-transform: translateY(-50%)
+			-o-transform: translateY(-50%)
+			transform: translateY(-50%)
+			right: 27px
+.rub
+	padding-bottom: 25px
+	margin-left: 3px
+	width: .6em
+
+
+
+.portfolio
+	padding-bottom: 0
+	background-color: #ddd
+	img
+		position: relative
+		top: -8em
+	&_top
+		text-align: center
+		z-index: 9
+		h2
+			margin-top: 0
+			text-transform: uppercase
+			color: #333
+			font-family: 'MullerHeavy', sans-serif
+
+
+.start
+	&_info
+		h2
+			text-transform: uppercase
+			color: #333
+			font-size: 2em
+			font-family: 'MullerHeavy', sans-serif
+	&_date
+		color: #333
+		text-transform: uppercase
+		font-family: 'MullerHeavy', sans-serif
+		font-size: 1.6em
+		margin-top: 1em
+		span
+			color: $bg_blue
+			display: block
+			margin-bottom: 1em
+	&_link
+		background-color: #f3d469
+		color: #fff
+		padding: 1em 2em
+		border-radius: 30px
+		display: inline-block
+		transition: .4s
+		text-decoration: none
+		margin-top: 1em
+		&:hover
+			box-shadow: 0 3px 17px #f3d469
+			text-decoration: none
+			color: #fff
+
+
+// ______________________MEDIA_________________________
+
+
+@media(max-width: 1200px)
+	.portfolio
+		padding: 4em 0
+		img
+			width: 100%
+			z-index: 2
+			top: -2rem
+	.slick-next, .slick-prev
+		display: none
+	.slick-arrow
+		display: none
+	.header_ul
+		li
+			margin: 0rem 1rem
+	.header_top
+		text-align: center
+	.false_header img
+		text-align: center
+		margin-left: auto
+		display: block
+		margin-right: auto
+	.false_italic
+		img
+			display: none
+		p
+			text-align: center
+			margin-top: 3rem
+	.video
+		text-align: center
+		&_example iframe
+			width: 80%
+		&_text
+			padding-top: 2rem
+		&_text img
+			display: none
+		img
+			width: 75%
+			margin-right: auto
+	.table
+		text-align: center
+		&_arrow
+			display: none
+		img
+			margin-left: auto
+			margin-right: auto
+			width: 80%
+		h4
+			text-align: center
+			margin-bottom: 1rem
+		p
+			text-align: center
+	.video_example
+		margin-top: 0
+
+@media(max-width: 991.98px)
+	.start
+		text-align: center
+		h2
+			margin-top: 2em
+
+	.price .col-md-4
+		margin-bottom: 5rem
+	.feedback_slider
+		img
+			max-width: 100%
+	.and_item 
+		margin-bottom: 7rem
+		p
+			text-align: center
+			margin-left: 0
+			margin-top: 2rem
+	.about
+		text-align: center
+		&_photo
+			border-radius: 0
+			border: none
+			img
+				margin-bottom: 1rem
+	.team
+		background-position: top right
+		background-size: 35%
+		&_arrow img
+			display: none
+		&_vk img
+			width: 100%
+			margin-left: auto
+			display: block
+			margin-right: auto
+	.rocket
+		margin-left: 0em
+	.who_text
+		padding-top: 2rem
+	.example
+		text-align: center
+		padding-top: 3em
+		img
+			margin-bottom: 2em
+			width: 70%
+		&_big
+			padding-left: 0
+			border: none
+			width: 90%
+			margin-left: auto
+			margin-right: auto
+	.false_header p
+		margin-top: 8rem
+	.true
+		text-align: center
+		&_item
+			margin-top: 0
+			margin-bottom: 15em
+			&:last-child
+				margin-bottom: 7rem
+			&:first-child
+				margin-top: 5rem
+			img
+				width: 75%
+	.true_text
+		span
+			position: absolute
+			font-size: 30rem
+			top: -12rem
+			left: 50%
+			-webkit-transform: translateX(-50%)
+			-ms-transform: translateX(-50%)
+			-o-transform: translateX(-50%)
+			transform: translateX(-50%)
+@media(max-width: 768px)
+	body
+		font-size: 17px
+	.who span
+		font-size: 4em
+		padding-left: .5em
+		top: 0
+	.and_top p
+		width: 80%
+	.rocket
+		margin-left: 0
+		width: 100%
+		margin-left: auto
+	.money
+		text-align: center
+@media(max-width: 576px)
+	.who span
+		font-size: 3em
+		padding-left: .5em
+		top: 0
+	.start
+		text-align: center
+		img
+			width: 80%
+			margin-left: auto
+			margin-right: auto
+		h2
+			margin-top: 2em
+			font-size: 1.6em
+	.video
+		text-align: center
+		&_example iframe
+			width: 80%
+			height: 300px
+	.rocket
+		margin-left: -5em
+	.true
+		text-align: center
+		&_item
+			margin-top: 0
+			margin-bottom: 10em
+			&:last-child
+				margin-bottom: 4rem
+			&:first-child
+				margin-top: 5rem
+			img
+				width: 90%
+	.false_header span
+		font-size: 8rem
+	.false
+		text-align: center
+		&_header 
+			img.man
+				-webkit-transform: translateX(-50%)
+				-ms-transform: translateX(-50%)
+				-o-transform: translateX(-50%)
+				transform: translateX(-50%)
+				margin-left: auto
+				width: 40%
+				text-align: center
+				margin-right: auto
+				left: 50%
+@media(max-width: 380px)
+	.who span
+		font-size: 2em
+		padding-left: .5em
+		top: 0
+	body
+		font-size: 16px
+	.program_btn
+		padding: 1em 1.5em
+	.header_main
+		text-align: center
+		margin-top: 2em
+	.header_italic
+		display: none
+	.header_btn 
+		a
+			width: 100%
+	.header_arrow
+		display: none
+	.false_header
+		margin: 0
+		padding: 0
+	.false_screenshot img
+		width: 80%
+
+		
+
+

@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'MullerHeavy';
+  src: url('MullerHeavy.eot');
+  src: url('MullerHeavy.eot?#iefix') format('embedded-opentype'),
+       url('MullerHeavy.svg#MullerHeavy') format('svg'),
+       url('MullerHeavy.ttf') format('truetype'),
+       url('MullerHeavy.woff') format('woff'),
+       url('MullerHeavy.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerRegularItalic';
+  src: url('MullerRegularItalic.eot');
+  src: url('MullerRegularItalic.eot?#iefix') format('embedded-opentype'),
+       url('MullerRegularItalic.svg#MullerRegularItalic') format('svg'),
+       url('MullerRegularItalic.ttf') format('truetype'),
+       url('MullerRegularItalic.woff') format('woff'),
+       url('MullerRegularItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerRegular';
+  src: url('MullerRegular.eot');
+  src: url('MullerRegular.eot?#iefix') format('embedded-opentype'),
+       url('MullerRegular.svg#MullerRegular') format('svg'),
+       url('MullerRegular.ttf') format('truetype'),
+       url('MullerRegular.woff') format('woff'),
+       url('MullerRegular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
